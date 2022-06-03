@@ -11,6 +11,23 @@ body {
   font-family: "Yanone Kaffeesatz", sans-serif;
   background-color: #b4e4e6;
   color: #453d3d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  gap: 35px;
+  margin: 70px;
+}
+
+section {
+  text-align: center;
 }
 
 h2 {
@@ -19,6 +36,7 @@ h2 {
 
 p {
   font-size: 20px;
+  line-height: 1.5;
 }
 
 img {
